@@ -1,0 +1,106 @@
+\documentclass[10pt,a4paper,noendnumber=true]{scrartcl}
+%german umlauts and localization
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+
+%figures etc.
+\usepackage[pdftex]{graphicx}
+\usepackage{standalone} %externalize files for faster compilation
+\usepackage{float}
+
+%mathematical symbols
+\usepackage{latexsym} % special symbols 
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{textcomp} % supports the Text Companion fonts, which provide many text symbols (such as baht, bullet, copyright, musicalnote, onequarter, section, and yen)
+%fonts:
+%\usepackage{txfonts}  %supplies virtual text roman fonts using Adobe Times % needs to be loaded AFTER amsmath (because otherwise \iint is defined twice)
+\usepackage{mathrsfs}  % for script-like fonts in math mode
+\usepackage{nicefrac} % nice fracs in text
+
+%\usepackage{libertine}
+%\usepackage[libertine]{newtxmath}
+%\usepackage[sc]{mathpazo}
+%\linespread{1.05}
+
+%tables
+\usepackage{tabularx}
+
+%units
+\usepackage{siunitx}
+
+%tikz
+\usepackage{tikz}
+\usepackage{tikzscale}
+\usepackage{pgfplots} 
+\usepackage{pgfgantt}
+\usepackage{pdflscape}
+\usepackage[european]{circuitikz}
+\pgfplotsset{compat=newest} 
+\pgfplotsset{plot coordinates/math parser=false}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes.symbols,shadows}
+
+%bib stuff
+\usepackage[draft = false]{hyperref}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee]{biblatex}
+%\addbibresource{bib.bib}
+
+% gescheiter Abstand nach paragraph
+\newcommand{\properparagraph}[1]{\paragraph{\textcolor{Emerald}{#1}}\mbox{}\\}
+\usepackage[parfill]{parskip}
+
+% für die Auflistung von Vor- und Nachteilen in itemize-Umgebung
+\newcommand\pro{\item[$+$]}
+\newcommand\con{\item[$-$]}
+
+%nice row vector
+\newcommand{\rvect}[1]{\begin{bmatrix} #1 \end{bmatrix}}
+
+%align multi pgfplots
+\pgfplotsset{yticklabel style={text width=3em,align=right}}
+
+\usetikzlibrary{external}
+\tikzexternalize[optimize=false,prefix=tikz/] % activate!
+
+\usepackage{subfig}
+\renewcommand{\arraystretch}{1.6}
+
+\title{Entrepreneurship}
+\subtitle{Question Catalog and Summary}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+\section{Question Catalog - Session 1}
+
+\properparagraph{What is the activity of an entrepreneur according to Jean Baptiste Say?}
+\properparagraph{How does Joseph Schumpeter define "`entrepreneurship"'?}
+\properparagraph{Please give one example of "`Creative Destruction"' related to entrepreneurship.}
+\properparagraph{How was the term "`entrepreneur"' defined according to the synthesis of Terzidis(2017)?}
+\properparagraph{What are the key activities of entrepreneurs according to Byers et al. (2011)?}
+\properparagraph{What are the personality traits of successful entrepreneurs according to Rauch \& Frese(2007)?}
+\properparagraph{What are the career reasons for nascent entrepreneurs according to Carter et al. (2003)?}
+\properparagraph{What is the role of entrepreneurship according to the definition of the OECD?}
+\properparagraph{Give a definition of the term "`business opportunity"' according to Byers et al. (2011).}
+\properparagraph{Please name five of the nine categories of opportunity according to Byers et al. (2011).}
+\properparagraph{Name and describe the characteristics of attractive opportunities. Please give an example only for three of these characteristics.}
+
+\end{document}
+
