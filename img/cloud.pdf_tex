@@ -1,0 +1,128 @@
+%% Creator: Inkscape 1.0.1 (3bc2e813f5, 2020-09-07), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'cloud.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{806.40601252bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82420865)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{cloud.pdf}}%
+    \put(0.9351739,0.05245622){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Tablets\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{cloud.pdf}}%
+    \put(0.91030732,0.57302847){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Desktops\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{cloud.pdf}}%
+    \put(0.45905471,0.7216511){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Servers\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{cloud.pdf}}%
+    \put(0.01698821,0.57089744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Laptops\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{cloud.pdf}}%
+    \put(-0.00182559,0.0505789){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Phones\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{cloud.pdf}}%
+    \put(0.22400835,0.09268451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Compute\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{cloud.pdf}}%
+    \put(0.49710284,0.06820939){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Block Storage\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{cloud.pdf}}%
+    \put(0.68648929,0.08729984){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Network\end{tabular}}}}%
+    \put(0.36890078,0.20311591){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Infrastructure\end{tabular}}}}%
+    \put(0.41902575,0.38658104){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Platform\end{tabular}}}}%
+    \put(0.40698403,0.57689918){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Application\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{cloud.pdf}}%
+    \put(0.3175738,0.49597944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}N\end{tabular}}}}%
+    \put(0.32642795,0.49597944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}E\end{tabular}}}}%
+    \put(0.33478376,0.49597944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}W\end{tabular}}}}%
+    \put(0.34633331,0.49598543){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}S\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{cloud.pdf}}%
+    \put(0.30741943,0.43572704){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Content\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{cloud.pdf}}%
+    \put(0.5910365,0.43807662){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Communication\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{cloud.pdf}}%
+    \put(0.23535412,0.24932488){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{0}\smash{\begin{tabular}[t]{c}Object Storage\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{cloud.pdf}}%
+    \put(0.43743094,0.46304116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Collaboration\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{cloud.pdf}}%
+    \put(0.31525142,0.28241518){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Identity\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{cloud.pdf}}%
+    \put(0.17937789,0.51398465){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.17751547,0.51920565){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.17668003,0.52548606){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0.17895192,0.53230172){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.18264373,0.53812342){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0.18832343,0.54138925){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0.19528108,0.54266719){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0.20195474,0.54110527){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}70\end{tabular}}}}%
+    \put(0.20749245,0.53798143){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}80\end{tabular}}}}%
+    \put(0.21146826,0.53315367){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}90\end{tabular}}}}%
+    \put(0.21274619,0.52733197){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0.2126042,0.51980635){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}110\end{tabular}}}}%
+    \put(0.21004833,0.51384266){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}120\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{cloud.pdf}}%
+    \put(0.15300599,0.51284654){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0.15456791,0.5077348){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{cloud.pdf}}%
+    \put(0.19192773,0.5047224){\color[rgb]{0.18039216,0.20392157,0.21176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textbf{12345}\end{tabular}}}}%
+    \put(0.15669781,0.50319103){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.15272201,0.51817127){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}3\end{tabular}}}}%
+    \put(0.15421293,0.52399297){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0.15740777,0.52811076){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}5\end{tabular}}}}%
+    \put(0.16145456,0.5312346){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0.16585634,0.53258353){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}7\end{tabular}}}}%
+    \put(0.17068409,0.5331515){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}8\\ \end{tabular}}}}%
+    \put(0.24084424,0.52942914){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}E\end{tabular}}}}%
+    \put(0.22124925,0.52914515){\color[rgb]{0.82745098,0.84313725,0.81176471}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}F\end{tabular}}}}%
+    \put(0.14833181,0.46999218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Monitoring\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{cloud.pdf}}%
+    \put(0.46014383,0.24952065){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Runtime\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{cloud.pdf}}%
+    \put(0.62706383,0.27007973){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Queue\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{cloud.pdf}}%
+    \put(0.7740121,0.24766057){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Database\end{tabular}}}}%
+    \put(0.78683708,0.45139102){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Finance\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{cloud.pdf}}%
+  \end{picture}%
+\endgroup%

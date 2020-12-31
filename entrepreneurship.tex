@@ -686,6 +686,8 @@ Market pull is the development and market introduction of a new product or servi
 	\item It refers to tools, machines, techniques, crafts, systems and software.
 	\item Technology is applied to solve problems and achieve goals.
 \end{enumerate}
+
+\newpage
 \properparagraph{Please fill a Technology Canvas on the next page with the historic example of cloud computing given in the lecture.}
 
 \begin{table}[tbh!]
@@ -704,10 +706,39 @@ Market pull is the development and market introduction of a new product or servi
 		\end{tabularx}
 \end{table}
 
+
+\begin{table}[tbh!]
+		\centering
+		\caption{Technology canvas for cloud computing}
+		\begin{tabularx}{\textwidth}{XXX}
+			\toprule
+			\textbf{Example Application} & \textbf{Core Idea, Function} & \textbf{Promise \& Novelty} \\
+			\midrule
+			Web Shops, Mail & 
+		    $\bullet$ Dynamic deployment of scalable IT services through shared IT resources over networks. \newline	
+			$\bullet$ Real-time self-service based on Internet technologies \newline			
+			$\bullet$ Many companies work on the same platform and share unassigned IT resources (multi-tenant/multi-tenancy)			 
+            &   
+			$\bullet$ On-demand self-service.\newline			
+			$\bullet$ Scalable IT resources.\newline			
+			$\bullet$ Back-up services.\newline			
+			$\bullet$ Consumption-based billing. 
+			\\
+			\midrule
+			\textbf{Current Practice} & \textbf{Drawing, Structure} & \textbf{Limitations} \\
+			\midrule
+			Each company installs a dedicated client-server environment (single-tenant architecture) & See \autoref{img:cloud} & $\bullet$ Concerns about Data Protection \newline $\bullet$ Trust in Provider is key\\
+			\bottomrule
+		\end{tabularx}
+\end{table}
+
 %TODO table
 \begin{figure}[H]
-	\centering
-	\includegraphics[width = 0.8\textwidth]{img/cloud_canvas}
+    \centering
+    \def\svgwidth{0.7\textwidth}
+    \input{img/cloud.pdf_tex}
+    \caption{Drawing for cloud computing canvas}
+    \label{img:cloud}
 \end{figure}
 
 
