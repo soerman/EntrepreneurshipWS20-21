@@ -7,7 +7,6 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{dcolumn,booktabs}
-
 \usepackage{geometry}
 \geometry{
 	a4paper,
@@ -75,8 +74,8 @@
 %align multi pgfplots
 \pgfplotsset{yticklabel style={text width=3em,align=right}}
 
-\usetikzlibrary{external}
-\tikzexternalize[optimize=false,prefix=tikz/] % activate!
+%\usetikzlibrary{external}
+%\tikzexternalize[optimize=false,prefix=tikz/] % activate!
 
 \usepackage{subfig}
 \renewcommand{\arraystretch}{1.6}
@@ -85,6 +84,8 @@
 \subtitle{Question Catalogue}
 \author{}
 
+\usepackage{lscape}
+
 
 \begin{document}
 \maketitle
@@ -92,7 +93,7 @@
 \section{Question Catalogue}
 \subsection{Session 1}
 \properparagraph{What is the activity of an entrepreneur according to Jean Baptiste Say?}
-"`The entrepreneur shifts economic resources out of an area of lower and into an area of higher productivity."'
+"The entrepreneur shifts economic resources out of an area of lower and into an area of higher productivity."
 
 \properparagraph{How does Joseph Schumpeter define “entrepreneurship”?}
 Entrepreneurship is about new factor combinations
@@ -132,12 +133,23 @@ markets. It is about creative destruction.
 \properparagraph{Please give one example of “Creative Destruction” related to entrepreneurship.}
 \\[-6ex]
 \begin{itemize}
-	\item static: Efficiency and price are main drivers of competition
-	\item dynamic: Old established business models declining and failing	
+	\item Static: Efficiency and price are main drivers of competition
+	\item Dynamic: Old established business models declining and failing	
 \end{itemize}
 
 \properparagraph{What are the key activities of entrepreneurs according to Byers et al. (2011)?}
-%TODO
+\begin{itemize}
+	\item Seek and establish organized activity
+	\item Create value for stakeholders by
+	\begin{itemize}
+		\item finding resource arrangements
+		\item introducing new products and processes
+		\item identifying new markets to serve needs of a target group
+	\end{itemize}
+	\item Devote time and effort
+	\item Assume necessary financial, psychic and social risks
+\end{itemize}
+
 
 \properparagraph{What is a Business Opportunity according to Dorf \& Byers?}
 An opportunity is a timely and favorable juncture of circumstances providing a good chance for a successful venture.
@@ -312,7 +324,11 @@ A business model is an idealized and aggregated representation of how a firm cre
 \end{itemize}
 
 \properparagraph{Fill the business model canvas for Campusjäger!}
-%TODO
+\begin{landscape}
+\input{img/leanCanvas.tikz}
+\end{landscape}
+%TODO fix this little POS so there isn't a newpage before that
+%TODO fill for Campusjäger stuff
 
 \properparagraph{Name the ten rules for good Business Design.}
 \\[-6ex]
@@ -358,7 +374,7 @@ A business model is an idealized and aggregated representation of how a firm cre
 \end{enumerate}
 
 \properparagraph{What is a Pivot according to Ries? Give an example and explain shortly.}
-A Pivot is a structured course correction designed to test a new fundamental hypothesis about the product, strategy, and engine of growth.
+A Pivot is a structured course correction designed to test a new fundamental hypothesis about the product, strategy and engine of growth.
 
 
 
@@ -693,7 +709,7 @@ Market pull is the development and market introduction of a new product or servi
 	\item Foundation
 	\item Technology application selection
 	\item Explorative development
-	\item product introduction
+	\item Product introduction
 \end{itemize}
 
 \properparagraph{ What are the 9 Technology Readiness Levels (TRLs) according to the model of NASA?}
@@ -821,7 +837,7 @@ Effective Leadership is a process that transforms people. Followers and leader a
 \properparagraph{Please name the six principles of effective leadership according to Malik (2006) and explain each one in your own words.}
 \\[-6ex]
 \begin{itemize}
-	\item \textbf{Result orientation}:
+	\item \textbf{Result orientation}
 		\begin{itemize}
 			\item In management, the only thing that matters are results
 			\item It is not the input that matters, but the output
@@ -829,7 +845,7 @@ Effective Leadership is a process that transforms people. Followers and leader a
 			\item In professional life, it is often more about duty than about fun
 			\item This is a management principle, not necessarly a life principle
 		\end{itemize}
-		\item \textbf{Contribution to the whole}:
+		\item \textbf{Contribution to the whole}
 		\begin{itemize}
 			\item Holistic thinking is important, having collective goal in mind
 			\item The principle is key to sustainable motivation
@@ -884,7 +900,7 @@ Effective Leadership is a process that transforms people. Followers and leader a
 	\item Analysis of risks and consequences of all alternatives; setting limitations
 	\item Making the decision
 	\item Implementation plan
-	\item Establishment of feedback-loops: Follow.up and follow-through
+	\item Establishment of feedback-loops: Follow-up and follow-through
 \end{enumerate}
 
 \properparagraph{What are the seven tools of effective leadership according to Malik?}
