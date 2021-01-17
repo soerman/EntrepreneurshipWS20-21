@@ -2,11 +2,11 @@
 %german umlauts and localization
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
-\usepackage[ngerman]{babel}
+\usepackage[english]{babel}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{booktabs}
 \usepackage{tabularx}
-
+\usepackage{dcolumn,booktabs}
 \usepackage{geometry}
 \geometry{
 	a4paper,
@@ -74,100 +74,1199 @@
 %align multi pgfplots
 \pgfplotsset{yticklabel style={text width=3em,align=right}}
 
-\usetikzlibrary{external}
-\tikzexternalize[optimize=false,prefix=tikz/] % activate!
+%\usetikzlibrary{external}
+%\tikzexternalize[optimize=false,prefix=tikz/] % activate!
 
 \usepackage{subfig}
 \renewcommand{\arraystretch}{1.6}
 
 \title{Entrepreneurship}
-\subtitle{Question Catalogue and Summary}
+\subtitle{Question Catalogue}
 \author{}
+
+\usepackage{lscape}
 
 
 \begin{document}
 \maketitle
 
 \section{Question Catalogue}
-
 \subsection{Session 1}
-
 \properparagraph{What is the activity of an entrepreneur according to Jean Baptiste Say?}
-\properparagraph{How does Joseph Schumpeter define "`entrepreneurship"'?}
-\properparagraph{Please give one example of "`Creative Destruction"' related to entrepreneurship.}
-\properparagraph{How was the term "`entrepreneur"' defined according to the synthesis of Terzidis(2017)?}
+"The entrepreneur shifts economic resources out of an area of lower and into an area of higher productivity."
+
+\properparagraph{How does Joseph Schumpeter define “entrepreneurship”?}
+Entrepreneurship is about new factor combinations
+leading to new products, production methods or new
+markets. It is about creative destruction.
+
+\properparagraph{What are the career reasons of nascent entrepreneurs? Name and explain them.}
+\\[-6ex]
+\begin{itemize}
+	\item Independence (freedom \& control in use of one’s time)
+	\item Self-realization (pursue self-directed goals)
+	\item Financial success (earn money, achieve financial security)
+	\item Recognition (have status \& approval by others)
+	\item Role (follow family traditions or follow example of others)
+	\item Innovation (accomplish something new)
+\end{itemize}
+
+\properparagraph{What are the motives for starting a business, according to GEM 2019?}
+\\[-6ex]
+\begin{itemize}
+	\item To make a difference in the world;
+	\item To build great wealth or very high income;
+	\item To continue a family tradition;
+	\item To earn a living because jobs are scarce.
+\end{itemize}
+
+\properparagraph{Please name the listed five forms of capital and name at least one example.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Natural Capital} (raw materials, energy, land)
+	\item \textbf{Financial Capital} (money, bounds)
+	\item \textbf{Intellectual Capital} (human capital: skills, knowledge)
+	\item \textbf{Organizational Capital} (machines, patents)
+	\item \textbf{Social Capital} (stakeholder relationships)
+\end{itemize}
+
+\properparagraph{Please give one example of “Creative Destruction” related to entrepreneurship.}
+\\[-6ex]
+\begin{itemize}
+	\item Static: Efficiency and price are main drivers of competition
+	\item Dynamic: Old established business models declining and failing	
+\end{itemize}
+
 \properparagraph{What are the key activities of entrepreneurs according to Byers et al. (2011)?}
-\properparagraph{What are the personality traits of successful entrepreneurs according to Rauch \& Frese(2007)?}
-\properparagraph{What are the career reasons for nascent entrepreneurs according to Carter et al. (2003)?}
-\properparagraph{What is the role of entrepreneurship according to the definition of the OECD?}
-\properparagraph{Give a definition of the term "`business opportunity"' according to Byers et al. (2011).}
-\properparagraph{Please name five of the nine categories of opportunity according to Byers et al. (2011).}
-\properparagraph{Name and describe the characteristics of attractive opportunities. Please give an example only for three of these characteristics.}
+\\[-6ex]
+\begin{itemize}
+	\item Seek and establish organized activity
+	\item Create value for stakeholders by
+	\begin{itemize}
+		\item finding resource arrangements
+		\item introducing new products and processes
+		\item identifying new markets to serve needs of a target group
+	\end{itemize}
+	\item Devote time and effort
+	\item Assume necessary financial, psychic and social risks
+\end{itemize}
 
 
-\subsection{Session 2}
-\properparagraph{What is the definition of a firm according Coase (1937)?}
-\properparagraph{Please fill with the missing terms on the \autoref{fig:sess2_diagram}: "`The firm as a System"'.}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width = 0.5\textwidth]{img/firm_system}
-	\caption{Firm as a System} \label{fig:sess2_diagram}
-\end{figure}
-\properparagraph{Keeping in mind the concept of the firm as a living system, please give two examples of an "`anabolic process"' (Growth and Change) and two of a "`catabolic process"' (Operation).}
-\properparagraph{Give a defintion if the term "`business model"' according to Terzidis(2017).}
-\properparagraph{What are business model V4 dimensions according to Al Debei and Avison (2011)?}
-\properparagraph{Please name the building blocks of the Business Model Canvas.}
-\properparagraph{Name the limitations of the Business Model Canvas.}
-\properparagraph{Fill the business model canvas for a daily newspaper!}
-\properparagraph{What does strategic management deal with according to Terzidis(2017)?}
-\properparagraph{What is an industry according to Dorf \& Byers (2011)?}
-\properparagraph{Describe an industry analysis using five steps mentioned in the lecture.}
-\properparagraph{Name the four phases in the Industry Lifecycle.}
-\properparagraph{What is a sustained competitive advantage according to Barney (1991)?}
-\properparagraph{Name the three key principles for strategic positioning (Porter, 2008).}
+\properparagraph{What is a Business Opportunity according to Dorf \& Byers?}
+An opportunity is a timely and favorable juncture of circumstances providing a good chance for a successful venture.
+
+\properparagraph{Please name the nine categories of an opportunity (mentioned in the lecture).}
+\\[-6ex]
+\begin{itemize}
+	\item Increasing the value of a product or service
+	\item New applications of existing means or technologies
+	\item Creating mass markets
+	\item Customization for individuals
+	\item Increasing reach
+	\item Managing the supply chain
+	\item Convergence of industries
+	\item Process innovation
+	\item Increasing the scale of the firm
+\end{itemize}
+
+\properparagraph{What are the characteristics of an attractive opportunity? Name and explain them shortly.}
+\\[-6ex]
+\begin{itemize}
+	\item Timely: a current need
+	\item Solvable: can be solved in the near future with accessible resources
+	\item Important: on the priority list of the customer
+	\item Profitable: adequate willingness to pay
+	\item Context: favorable regulatory and industry situation
+\end{itemize}
+
+\properparagraph{What is an entrepreneurial competence according to Tittel \& Terzidis? What does competence consist of? Explain the different parts.}
+We define a competence as the disposition to generate adequate actions to responsibly solve problems in variable situations.
+\begin{itemize}
+	\item Knowledge is the body of facts, principles, theories and 	practices that is related to a field (inspired by EQF).
+	\item  Skill is the ability to apply knowledge and use know-how to complete tasks (inspired by EQF).
+	\item  Attitude is a disposition to respond favorably or unfavorably to an object, person, institution, or event (Ajzen, I. 2005, p.3).
+\end{itemize}
+
+\properparagraph{Name the six verbs that describe personal competence according to Tittel \& Terzidis.}
+Be, Learn, Create, Want, Dare, Do
+
+\properparagraph{What are the stages of Action Learning?}
+\\[-6ex]
+\begin{itemize}
+	\item Listen: Impulse
+	\item Do: Activity \& experience
+	\item Reflect: what, how, why, how else
+	\item Internalize: Theorize \& practice
+\end{itemize}
 
 
-\subsection{Session 3}
-\properparagraph{Please give a definition of market and the actors who determine the market according to Homburg (2017).}
-\properparagraph{Give a definition of marketing according to the American Marketing Association.}
-\properparagraph{Name the 4 P’s of the Marketing Mix according to Hisrichand Ramadani(2017).}
-\properparagraph{What are the five dimensions of value of an offering according to Dorf \& Byers?}
-\properparagraph{Please give the definition of a "`job"' and its three characteristics according to the Job to be done theory (Ulwick2016).}
-\properparagraph{What are the three steps of the Strategic Marketing Process?}
-\properparagraph{What is market segmentation according to Smith (1956)?}
-\properparagraph{What are the five stages of innovation diffusion according to Roger (1983) and Moore (1991)?}
-\properparagraph{Name 4 methods to estimate the market size.}
-\properparagraph{What are the three approaches to determine the price of an offering?}
-\properparagraph{What are the four questions asked in the method described by van Westendorp(1976)?}
-\properparagraph{Please give the definition of ‘Lean Startup’ presented in the lecture and name the four steps of the lean startup method?}
-\properparagraph{Name the six components of the validated learning loop according to Ries(2011).}
-\properparagraph{Please give the definition of Minimal Viable Product (MVP) and Pivot given in the lecture? Give one example for each concept.}
 
-\subsection{Session 4}
-\properparagraph{What is a patent (definition used in the lecture)?}
-\properparagraph{What is meant by "`novelty"' according to German patent law (§3 sentence 1 PatG)?}
-\properparagraph{What is meant by "`inventive activity"' according to German patent law (§4 PatG)?}
-\properparagraph{Name three opportunities and three risks related to patenting.}
-\properparagraph{Name the Success Factors of New Ventures according to Song et al. (2008).}
-\properparagraph{Compare market pull to technology push processes by naming five attributes and stating the differences with respect to these attributes.}
-\properparagraph{Explain the objective of Intellectual Property.}
-\properparagraph{What is a Patent Family? What are the advantages of using a patent family?}
-\properparagraph{Describe the Employee Invention act.}
 
-\subsection{Session 5}
-\properparagraph{Please name the six principles of effective management according to Malik (2006) and explain each one in your own words.}
-\properparagraph{What are the five tasks of effective leadership according to Malik (2006)?}
-\properparagraph{What does SMART stand for in the context of goals?}
-\properparagraph{Please define the term "`decision"' using the definitions of Mintzberg (1976) and the Gabler business dictionary (Wirtschaftslexikon).}
-\properparagraph{What are the main three phases of the decision-making process according toSimon (1965, 1977)and Mintzberg (1976)?}
-\properparagraph{Please name the 7 stages of a decision-making process according to Malik (2006).}
-\properparagraph{What are the seven tools of effective leadership according to Malik(2006)?}
-\properparagraph{Please name and explain thefiveapproachestoleadership.}
-\properparagraph{Summarize in your own words the empirical distillate of theories and studies of leadership.}
-\properparagraph{Identify the types of competences mentioned on the lecture and give three examples for each one.}
+
+
+
+
 
 \newpage
+\subsection{Session 2}
+\properparagraph{How is strategy defined and what does strategic management deal with according to Terzidis (2017)?}
+A strategy is a plan or roadmap for the fundamental behavior of an organization in order to achieve its mission and long-term goals.
 
-\section{Summary}
+Strategic management deals with the initiatives taken by entrepreneurs involving the utilization of resources to enhance the performance of firms in their external environments.
+
+\properparagraph{Name the three key principles for strategic positioning (Porter, 2008).}
+\\[-6ex]
+\begin{itemize}
+	\item Strategy is the creation of a unique and valuable position, involving a different set of activities.
+	\item Strategy requires you to make	trade-offs in competing—to choose what not to do.
+	\item Strategy involves creating “fit” (coherence) among a company’s activities.
+\end{itemize}
+
+\properparagraph{Which questions you need to ask yourself for finding the balance (IKIGAI)?}
+\\[-6ex]
+\begin{itemize}
+	\item What you love,
+	\item What you are good at,
+	\item What the world needs, and
+	\item What you can be paid for.
+\end{itemize}
+
+\properparagraph{What is the definition of a firm according Coase (1937)?}
+A firm [...] consists of the system of relationships which comes into existence when the direction of resources is dependent on an entrepreneur.
+
+\properparagraph{“The firm as a system” – in which markets is the firm embedded?}
+\\[-6ex]
+\begin{itemize}
+	\item Customer market,
+	\item Labor market,
+	\item Capital market,
+	\item Supplier market,
+	\item Complementary partners
+\end{itemize}
+
+\properparagraph{What is an industry according to Byers and Dorf?}
+An industry is a group of firms producing products that are close substitutes for each other and serve the same customer.
+
+\properparagraph{Please describe the Industry Lifecycle and explain, if necessary, what is meant by the different phases.}
+\\[-6ex]
+\begin{itemize}
+	\item Emerging phase
+	\item Growth phase
+	\item Mature phase
+	\item Declining phase
+\end{itemize}
+
+\properparagraph{Please describe Porter’s Five Forces Model – name all of the forces and differentiate between horizontal and vertical competition.}
+\\[-6ex]
+\begin{itemize}
+	\item Horizontal competition:
+	\begin{itemize}
+		\item Aspiring entrants can require new investment for you to stay competitive.
+		\item You must stand up to existing competition.
+		\item Substitute offerings can lure customers away.
+	\end{itemize}
+	\item Vertical competition:
+	\begin{itemize}
+		\item Customers can force down prices by playing you and your rivals against one another.
+		\item Powerful suppliers may constrain your profits if they charge higher prices.	
+	\end{itemize}
+\end{itemize}
+
+\properparagraph{Give a definition of the term ‘business model’ according to Terzidis (2017).}
+A business model is an idealized and aggregated representation of how a firm creates value for all its stakeholders.
+
+\properparagraph{What are the business model V4 dimensions according to Al Debeiand Avison (2011)?}
+\\[-6ex]
+\begin{itemize}
+	\item Value Proposition (business logic of creating value for customers, ...)
+	\item Value Architecture (technological architecture and organizational infrastructure)
+	\item Value Network (coordination and collaboration)
+	\item Value Finance
+\end{itemize}
+
+\properparagraph{What are the Business Models Functions (according to Al Debei \& Avison (2011))?}
+\\[-6ex]
+\begin{itemize}
+	\item Alignment Instrument
+	\item Interceding Framework
+	\item Knowledge Capital
+\end{itemize}
+
+\properparagraph{Please name the building blocks of the Business Model Canvas.}
+\\[-6ex]
+\begin{itemize}
+	\item Key partners
+	\item Key activities
+	\item Key resources
+	\item Value proposition
+	\item Customer relationships
+	\item Channels
+	\item Customer segments
+	\item Cost structure
+	\item Revenue streams
+\end{itemize}
+
+
+\properparagraph{What is a model according to Stachoviak?}
+\\[-6ex]
+\begin{itemize}
+	\item Mapping (model represents something)
+	\item Idealization (abstraction, not everything mapped)
+	\item Pragmatism (concrete, pragmatic contexts)
+\end{itemize}
+
+\properparagraph{Name the limitations of the Business Model Canvas.}
+\\[-6ex]
+\begin{itemize}
+	\item The purpose of the firm is not mentioned.
+	\item Market structure and competitors are not mentioned.
+	\item There is no explicit mentioning of the ‘value network’.
+	\item Implication about the capital needs (e.g. need for working capital) are not mapped.
+\end{itemize}
+
+\properparagraph{Fill the business model canvas for Campusjäger!}
+\begin{landscape}
+\input{img/leanCanvas.tikz}
+\end{landscape}
+%TODO fix this little POS so there isn't a newpage before that
+%TODO fill for Campusjäger stuff
+
+\properparagraph{Name the ten rules for good Business Design.}
+\\[-6ex]
+\begin{enumerate}
+	\item  Good business model design depends as much on art and intuition as it does on science
+	and analysis.
+	\item Good business model design requires deep knowledge of customer needs and the
+	technological and organizational resources that might meet those needs.
+	\item All good business models require an understanding of current business models at work in
+	the market. Most new business model designs involve the hybridizations of others.
+	\item Alignment and coherence is desirable so that the business model elements will be
+	mutually reinforcing.
+	\item Strategic analysis must be tied to business model design and vice versa. Strategy guides
+	business model design and is also to some extent shaped by it.
+	\item Business models should be coupled with strategies and assets that make imitation
+	difficult. Imitation will occur sooner or later, and pioneers must be fast learners.
+	\item Identifying the customer segment(s) to focus on first in order to learn and achieve
+	proof-of-concept and business model viability is a critical capability.
+	\item When n-sided markets are involved, getting started early and effectively seeding the
+	n sides is critical.
+	\item Good business model reengineering skills are an important component of strong
+	dynamic capabilities. They enable proficient seizing.
+	\item The introduction of new business models into an existing organization is always
+	difficult and may require a separate organizational unit.	
+\end{enumerate}
+
+\properparagraph{What is a Start-Up \& what is a Lean Start-Up according to Ries?}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Start-up:} A startup is a human institution designed to create a new product or service under conditions of extreme uncertainty.
+	\item \textbf{Lean Start-up:} Lean Startup is a method to systematically reduce the risk of	projects with high uncertainty.
+\end{itemize}
+
+\properparagraph{What are the six stages of validated learning according to Ries?}
+\\[-6ex]
+\begin{enumerate}
+	\item \textbf{IDEAS:} Hypothesis
+	\item \textbf{BUILD:} Build experiment
+	\item \textbf{PRODUCT:} Minimum viable product
+	\item \textbf{MEASURE:} Run experiment, record data
+	\item \textbf{DATA:} Collected data
+	\item \textbf{LEARN:} Interpret data
+\end{enumerate}
+
+\properparagraph{What is a Pivot according to Ries? Give an example and explain shortly.}
+A Pivot is a structured course correction designed to test a new fundamental hypothesis about the product, strategy and engine of growth.
+
+
+
+
+
+
+\newpage
+\subsection{Session 3}
+\properparagraph{Please name 5 top reasons why startups fail according to the lecture.}
+All top reasons:
+\begin{itemize}
+	\item No market need
+	\item Run out of cash
+	\item Not the right team
+	\item Got outcompeted
+	\item Pricing/Cost issues
+	\item User un-friendly product
+	\item Product without a business model
+	\item Poor marketing
+	\item Ignore customers
+\end{itemize}
+
+\properparagraph{Please give a definition of market, the actors who determine the market according to Homburg	(2017).}
+A market is the place, where a supply of products meets the demand for these products, which creates a price. This may occur in a real or in a virtual place.
+
+Market activity is determined by the following actors:
+\begin{itemize}
+	\item Buyers
+	\item Providers
+	\item Partners
+	\item State institutions
+	\item Interest groups
+\end{itemize}
+
+\properparagraph{Give a definition of marketing according to the American Marketing Association.}
+Marketing is the activity, set of institutions and processes for creating, communicating, delivering and exchanging offerings that have value for customers, clients, partners and society at large.
+
+\properparagraph{Name the 4 P’s of the Marketing Mix according to Hisrich and Ramadani (2017). List at least three examples, according to the Lecture.}
+\\[-6ex]
+\begin{itemize}
+	\item Product
+	\item Price
+	\item Promotion
+	\item Place
+\end{itemize}
+
+\properparagraph{Name the three Key Challenges of New Ventures and the explanation for each.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Liability of Newness}: 
+	Liability of newness lead to higher failure rates of new firms compared to older ones. New firms have to create processes, new relationships and have a lack of reputation and experience.
+	\item \textbf{Liability of Smallness}:
+	New ventures usually start off with few employees and limited financial resources. Their ability to sustain economic downtrends is limited. They encounter critical gaps in required skills. Smallness is negatively correlated with survival rates.
+	\item \textbf{Uncertainty and Turbulence}:
+	Uncertainty is directly connected to a valuable opportunity.
+\end{itemize}
+
+\properparagraph{What is market segmentation according to Wendell Smith?}
+Market segmentation involves \textbf{viewing a heterogeneous market as a number of smaller homogeneous markets}, in response to differing preferences, attributable to the desires of customers for more precise satisfaction of their varying wants.
+
+\properparagraph{Name the different categories of customers and list the three mentioned characteristics.}
+
+\textbf{High Level Categories:}
+\begin{itemize}
+	\item \textbf{B2C}: Business to Consumer
+	\item \textbf{B2B}: Business to Business
+	\item \textbf{B2G}: Business to Government
+	\item \textbf{B2H}: Business to Healthcare
+\end{itemize}
+
+\textbf{Characteristics}
+\begin{itemize}
+	\item Customer facing processes are completely different
+	\item Product definition, delivery, pricing is different
+	\item Sales processes are different
+\end{itemize}
+
+\properparagraph{How is Value and the Value proposition defined in the lecture (inspired by Byers et al)}
+\textbf{Value} is the worth, importance or usefulness to the customer.
+
+\textbf{Value proposition} is a promise of value to be delivered, communicated and acknowledged.
+
+\properparagraph{What are the five dimensions of value of an offering according to Dorf \& Byers?}
+\\[-6ex]
+\begin{itemize}
+	\item Product
+	\item Price
+	\item Access
+	\item Service
+	\item Experience
+\end{itemize}
+
+\properparagraph{Please give the definition of a ‘job’ and its three characteristics according to the Job to be done theory (Ulwick 2016).}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.3\textwidth]{img/joob.jpg}
+	\caption{From \textit{Spongebob Squarepants}, Season 3, Episode 7b}
+\end{figure}
+
+\textbf{Definition}: A job is the progress a customer seeks in a particular context.
+
+\textbf{Characteristics}:
+\begin{itemize}
+	\item A job is stable; it doesn't change over time.
+	\item A job has no geographical boundaries.
+	\item A job is solution agnostic.
+\end{itemize}
+
+\properparagraph{What is the desired outcome? Please rephrase the three listed descriptions of the lecture}
+\textbf{Descriptions from lecture}:
+\begin{itemize}
+	\item Desired Outcome Statements measure the success when getting a job done.
+	\item They describe how in the view of the customer, it is possible to get the job done in a better way. 
+	\item Desired Outcome Statement: Direction of improvement + Performance Metric + Object of control + Context Clarifier
+\end{itemize}
+ 
+Desired Outcome is what the customer needs to achieve (Required Outcome) and how they need to achieve it (Appropriate Experience). See \href{https://sixteenventures.com/desired-outcome}{https://sixteenventures.com/desired-outcome}.
+
+\properparagraph{What are the three approaches to determine the price of an offering?}
+Price can be determined in the three following ways:
+\begin{itemize}
+	\item Cost-based
+	\item Competition-based
+	\item Value-based
+\end{itemize}
+
+\properparagraph{What are the three steps of the Strategic Marketing Process (STP)?}
+\\[-6ex]
+\begin{itemize}
+	\item Segmenting
+	\item Targeting
+	\item Positioning
+\end{itemize}
+
+\properparagraph{What are the five stages of innovation diffusion according to Roger (1983) and Moore (1991)?}
+\\[-6ex]
+\begin{itemize}
+	\item Innovators
+	\item Early Adopters
+	\item Early Majority
+	\item Late Majority
+	\item Laggards
+\end{itemize}
+
+\properparagraph{What are the four questions asked in the method described by van Westendorp (1976) What are the key statements of those?}
+\textbf{Questions}:
+\begin{enumerate}
+	\item At what price would you consider the product to be so expensive, that you would not consider buying it?
+	\item at what price would you consider the product to be priced so low, that you would feel the quality could not be very good?
+	\item At what price would you consider the product starting to get expensive, so that it is not of the question, but you would have to give some thought  to buying it?
+	\item At what price would you consider the product to be a bargain - a great buy for the money?
+\end{enumerate}
+\textbf{Key statemets}
+\begin{enumerate}
+	\item Too expensive
+	\item Too cheap
+	\item Expensive/High Side
+	\item Inexpensive/Good Value
+\end{enumerate}
+
+\properparagraph{Name the 8 listed methods according to the lecture to evaluate the market size.}
+\\[-6ex]
+\begin{itemize}
+	\item Market reports and estimates
+	\item Top Down
+	\item Sum of competitors
+	\item Bottom Up
+	\item Value Chain (Forward and Back)
+	\item GDP Correlation
+	\item Adjacent Market Method
+	\item Social Media Analysis
+\end{itemize}
+
+\properparagraph{What are the intended outcomes of a competitor analysis according to the lecture? Name the three listed outcomes.}
+A CA strengthens the knowledge base for informed decisions, reduces risks and enables the formulation and implementation of a strategy.
+\begin{itemize}
+	\item An understanding of your competitive environment
+	\item A positioning of your product and company in the competitive environment
+	\item Enabling to iterate ones business model
+\end{itemize}
+
+\properparagraph{What are the six steps of the competitor analysis? Describe them briefly.}
+\\[-6ex]
+\begin{enumerate}
+	\item \textbf{Start:}
+	Write down your company statement to start your analysis,
+	\item \textbf{Set-Up:}
+	Specify the parameters for your analysis
+	\item \textbf{Identify your competitors:}
+	Think about companies in and outside your industry with the same technology, distribution channel, production process, which solve the same problem
+	\item \textbf{Collect:}
+	Collect the information specified using the determined sources and methods
+	\item \textbf{Present and Capture:}
+	General information, Value Proposition/Network/Architecture/Finance
+	\item \textbf{Synthesize and conclude:}
+	 Analyze the information, draw your conclusions and develop your positioning
+\end{enumerate}
+
+
+
+
+
+
+
+\newpage
+\subsection{Session 4}
+\properparagraph{What is a patent (definition used in the lecture)?}
+A patent is an exclusion right of limited duration, which the state grants for the disclosure of an invention.
+
+The patent holder is the only authorized person to use the patented invention.
+
+\properparagraph{Name the three highlighted characteristics of a patent and the respective descriptions.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Novelty:} 
+	An invention is considered new if it is not state of the art.
+	
+	\item \textbf{Inventive activity:} 
+	An invention requires an inventive step; it may not be obvious for an expert skilled in the art.
+	
+	\item \textbf{Industrial application:} 
+	An invention needs to have an industrial application.
+\end{itemize}
+
+\properparagraph{What are the findings of patents according to Häussner et al. (2012)?}
+While preparing a patent application is costly and requires the disclosure of private information, \textbf{patents have an important signaling value}.
+
+\properparagraph{What are the three steps of a patent application?}
+\\[-6ex]
+\begin{enumerate}
+	\item Patent Application
+	\item Inspection Process
+	\item Disclosure
+\end{enumerate}
+	
+\properparagraph{Please name the different steps of the patent application process and assign it to the respective category. Also name all subitems with at least one description per category.}
+\\[-6ex]
+\begin{enumerate}
+	\item Patent Application (\textbf{Filing})
+		\begin{itemize}
+			\item Heading \& Summary
+			\item Full Description
+			\item Key Section: Patent Claims
+			\item Drawings
+		\end{itemize}
+	\item Inspection Process (\textbf{Examination})
+		\begin{itemize}
+			\item Heading \& Summary
+			\item Full Description
+			\item Key Section: Patent Claims
+			\item Drawings
+		\end{itemize}
+	\item Disclosure of Patent Application (\textbf{Examination})
+		\begin{itemize}
+			\item Heading \& Summary
+			\item Full Description
+			\item Key Section: Patent Claims
+			\item Drawings
+		\end{itemize}
+	\item Violation (\textbf{Infringement})
+		\begin{itemize}
+			\item Patent infringement lawsuit
+			\item Claims
+		\end{itemize}
+\end{enumerate}
+
+
+\properparagraph{What is excluded from patenting in Germany? Name three examples.}
+\\[-6ex]
+\begin{itemize}
+	\item Business ideas, plans and regulations
+	\item Plant and animal species
+	\item Unethical inventions
+	\item Some inventions in microbiology, biotechnology and software can be patented
+	\item Substitution of material (e.g. plastic for metal)
+	\item Change of size/form of an existing machine/component
+	\item Making something more transportable
+	\item Substitution of one element with a similar one
+\end{itemize}
+
+\properparagraph{Please name three opportunities and three risks related to patenting.}
+\begin{table}[H]
+		\centering
+		\begin{tabularx}{\textwidth}{lX}
+			\toprule
+			\textbf{Opportunities} & \textbf{Risks} \\
+			\midrule
+			Control over patent and invention	& Disclosure of the invention after 18 months\\
+			Competitors cannot apply for the same patent: monopoly			& Application process expensive\\
+			Reputation, innovation and higher valuation	& Maintenance expensive due to annual fees\\
+			Communication \& cooperation with partner	& Enforcing patent infringements involves high legal expenses and lawyer costs\\
+			Monitoring competitors through their patents	& \\
+			\bottomrule
+		\end{tabularx}
+\end{table}
+
+\properparagraph{What is the PCT? What does it provide? Please define as written in the lecture.}
+The \textbf{Patent Cooperation Treaty} (PCT) is an international patent law treaty, concluded in 1970. It provides a unified procedure for filing patent applications to protect inventions in each of its contracting states.
+
+\properparagraph{What is a NTBF? Please define according to the lecture.}
+A \textbf{New Technology-Based Firm} (NTBF) is an entrepreneurial organization with the goal to actively create, develop and/or commercialize offerings based on technology and/or research, particularly innovative products, processes, applications and services, which is no more than 12 years in operation.
+
+\properparagraph{Please name the Success Factors of New Ventures according to Song et al. (2008).}
+\\[-6ex]
+\begin{itemize}
+	\item Supply chain integration
+	\item Market scope
+	\item Firm age
+	\item Size of founding team
+	\item Financial resources
+	\item Founders' marketing experience
+	\item Founders' industry experience
+	\item Existence of patent protection
+\end{itemize}
+
+\properparagraph{What is technology push according to the lecture?}
+Technology push is the development and market introduction of a new technology-based product or service initiated by new technologies rather than customer needs.
+
+\properparagraph{What is market pull according to the lecture?}
+Market pull is the development and market introduction of a new product or service induced by customer demand. This requires the identification of latent unsatisfied customer needs. The needs can be identified by market research with appropriate instruments, e.g. customer surveys or qualitative methods (including 'design thinking').
+
+\properparagraph{Name the four levels of the TAS framework according to Terzidis \& Vogel (2017).}
+\\[-6ex]
+\begin{itemize}
+	\item Foundation
+	\item Technology application selection
+	\item Explorative development
+	\item Product introduction
+\end{itemize}
+
+\properparagraph{ What are the 9 Technology Readiness Levels (TRLs) according to the model of NASA?}
+\\[-6ex]
+\begin{enumerate}
+	\item Basic principles observed and reported
+	\item Technology concept and/or application formulated
+	\item Analytical and experimental critical function and/or characteristic proof-of-concept
+	\item Component and/or breadboard validation in laboratory environment
+	\item Component and/or breadboard validation in relevant environment
+	\item System/subsystem model or prototype demonstration in a relevant environment
+	\item System prototype demonstration in environment
+	\item Actual system completed and qualified through test and demonstration
+	\item Actual system proven through successful operations 
+\end{enumerate}
+
+\properparagraph{What is a technology according to the lecture? Name all four subitems.}
+\\[-6ex]
+\begin{enumerate}
+	\item A technology is an artifact that performs a specific function by transforming, transporting or storing energy, matter or information.
+	\item It is implemented as a specific systemic arrangement (technical system).
+	\item It refers to tools, machines, techniques, crafts, systems and software.
+	\item Technology is applied to solve problems and achieve goals.
+\end{enumerate}
+
+
+\properparagraph{Please fill a Technology Canvas on the next page with the historic example of cloud computing given in the lecture.}
+\begin{table}[H]
+		\centering
+		\caption{General technology canvas}
+		\begin{tabularx}{\textwidth}{XXc}
+			\toprule
+			\textbf{Example Application} & \textbf{Core Idea, Function} & \textbf{Promise \& Novelty} \\
+			\midrule
+			What is an example where the technology is used? & Transformation, transportation, storage of energy, matter, information & Potential benefits and what is new \\
+			\midrule
+			\textbf{Current Practice} & \textbf{Drawing, Structure} & \textbf{Limitations} \\
+			\midrule
+			What practices are used currently? What are limitations of current practices? & Drawing related to the central concept, typically describing the structure & What are limitations or weaknesses? \\
+			\bottomrule
+		\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+		\centering
+		\caption{Technology canvas for cloud computing}
+		\begin{tabularx}{\textwidth}{XXX}
+			\toprule
+			\textbf{Example Application} & \textbf{Core Idea, Function} & \textbf{Promise \& Novelty} \\
+			\midrule
+			Web Shops, Mail & 
+		    $\bullet$ Dynamic deployment of scalable IT services through shared IT resources over networks. \newline	
+			$\bullet$ Real-time self-service based on Internet technologies \newline			
+			$\bullet$ Many companies work on the same platform and share unassigned IT resources (multi-tenant/multi-tenancy)			 
+            &   
+			$\bullet$ On-demand self-service.\newline			
+			$\bullet$ Scalable IT resources.\newline			
+			$\bullet$ Back-up services.\newline			
+			$\bullet$ Consumption-based billing. 
+			\\
+			\midrule
+			\textbf{Current Practice} & \textbf{Drawing, Structure} & \textbf{Limitations} \\
+			\midrule
+			Each company installs a dedicated client-server environment (single-tenant architecture) & See \autoref{img:cloud} & $\bullet$ Concerns about Data Protection \newline $\bullet$ Trust in Provider is key\\
+			\bottomrule
+		\end{tabularx}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \def\svgwidth{0.7\textwidth}
+    \input{img/cloud.pdf_tex}
+    \caption{Drawing for cloud computing canvas}
+    \label{img:cloud}
+\end{figure}
+
+
+
+
+
+
+
+\newpage
+\subsection{Session 5}
+\properparagraph{How defines Terzidis (2019) Leadership and the leader, according to the lecture?}
+\textbf{Leadership} ist organizing a group of people to achieve a common goal.
+
+\textbf{Leader} is somebody whom people follow, somebody who guides or directs others.
+
+\properparagraph{ According to Luhmann, what are the three characteristics of a Modern Organization?}
+Organizations have decision-making autonomy: they have the ability to reach their own decisions about their members, their goals and their hierarchies.
+
+\textbf{Characteristics}
+\begin{itemize}
+	\item Membership
+	\item Goals
+	\item Hierarchies
+\end{itemize}
+
+\properparagraph{What are the six traits, that are related to leadership (Northouse, 2016)?}
+\\[-6ex]
+\begin{itemize}
+	\item Intelligence
+	\item Self-Confidence
+	\item Determination
+	\item Integrity
+	\item Sociability
+	\item Emotional Intelligence
+\end{itemize}
+
+\properparagraph{What are the five factor personality model dimensions that are related to leadership (Northouse, 2016)?}
+\\[-6ex]
+\begin{itemize}
+	\item High extraversion
+	\item High conscientiousness
+	\item High openness
+	\item Low neuroticism
+	\item High agreeableness
+\end{itemize}
+
+\properparagraph{What is the Basic Assumption of Transformal Leadership according to Northouse, 2016)?}
+Effective Leadership is a process that transforms people. Followers and leader are inextricably bound together in this transformation process.
+
+\properparagraph{Please name the six principles of effective leadership according to Malik (2006) and explain each one in your own words.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Result orientation}
+		\begin{itemize}
+			\item In management, the only thing that matters are results
+			\item It is not the input that matters, but the output
+			\item The nature of the result depends on the prupose of the organization
+			\item In professional life, it is often more about duty than about fun
+			\item This is a management principle, not necessarly a life principle
+		\end{itemize}
+		\item \textbf{Contribution to the whole}
+		\begin{itemize}
+			\item Holistic thinking is important, having collective goal in mind
+			\item The principle is key to sustainable motivation
+			\item What matters is what you contribute -- within the company and within the value creation network
+		\end{itemize}
+		\item \textbf{Focus on new things}
+		\begin{itemize}
+			\item Being effective demands focus on a core challenge instead of dissipating your energies
+		\end{itemize}
+		\item \textbf{Use strengths}
+		\begin{itemize}
+			\item Fixation on weaknesses is dead end
+			\item It takes time and patience to observe strengths of team members: What is easy for a team member?
+			\item Only if you assign tasks that match with strengths, there will be a good motivation and performance
+			\item Deficits in knowledge, skills, attitudes and habits can be changed; individuality not.
+		\end{itemize}
+		\item\textbf{Create trust}
+		\begin{itemize}
+			\item We all do management mistakes. A team needs trust to overcome this and live a robust relationship.
+			\item Example: Fault management: Your teams mistakes are your mistakes. Your mistakes are your mistakes. Integrity, consistency, reliability and authenticity are key.
+		\end{itemize}
+		\item \textbf{Think positive}
+		\begin{itemize}
+			\item Positive or constructive thinking is key
+			\item See opportunities rather than problems
+			\item Be proactive
+			\item Give your best
+		\end{itemize}
+\end{itemize}
+
+\properparagraph{What are the five tasks of effective leadership according to Malik (2006)?}
+\\[-6ex]
+\begin{itemize}
+	\item Create goals
+	\item Organize
+	\item Decide
+	\item Monitor
+	\item Develop people
+\end{itemize}
+
+\properparagraph{Please define the term ‘decision’ using the definitions of Mintzberg (1976) and the Gabler business dictionary (Wirtschaftslexikon).}
+\textbf{Mintzberg}: Decision is a specific commitment to action (usually a commitment of resources).
+
+\textbf{Wirtschaftslexikon}: Decision is the selection of an action from a set of available alternatives, with an intentional accent, taking into account possible environmental conditions.
+
+\properparagraph{Please name the 7 stages of a decision-making process according to Malik (2011).}
+\\[-6ex]
+\begin{enumerate}
+	\item Precise definition of the problem
+	\item Specification of the requirements and criteria the decision has to fulfill
+	\item Working-out the alternatives (all alternatives!)
+	\item Analysis of risks and consequences of all alternatives; setting limitations
+	\item Making the decision
+	\item Implementation plan
+	\item Establishment of feedback-loops: Follow-up and follow-through
+\end{enumerate}
+
+\properparagraph{What are the seven tools of effective leadership according to Malik?}
+\\[-6ex]
+\begin{itemize}
+	\item Meetings
+	\item Reports
+	\item Job Design
+	\item Personal working methodology
+	\item Budget
+	\item Performance assessment
+	\item "Waste disposal"
+\end{itemize}
+
+
+
+
+
+
+\newpage
+\subsection{Session 6}
+\properparagraph{Name the three forms of external financing mentioned in the lecture. For each of those, name the three outlined definitions.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Equity capital:}
+	\begin{itemize}
+		\item Having a share implies to co-own the companies
+		\item Control rights, co-determination rights, information rights
+		\item Direct participation in business success \& failure
+	\end{itemize}
+	\item \textbf{Mezzanine capital}
+	\begin{itemize}
+		\item Repayment obligation, profit-linked interest
+		\item Optional control rights, co-determination/information rights
+		\item Potential participation in failure		
+	\end{itemize}
+	\item \textbf{Loans/Borrowed capital}
+	\begin{itemize}
+		\item Repayment obligation, interest payment
+		\item Investors do not hold any shares
+		\item No participation in business success
+	\end{itemize}
+\end{itemize}
+
+
+\properparagraph{Please name all categories of internal financing for funding a start-up}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Self-financing}
+	\item \textbf{Boot-strapping}
+\end{itemize}
+
+
+\properparagraph{What is the definition of risk (according to the Gabler Online Wirtschaftslexikon)?}
+A risk is an indication of the possibility that with some probability a loss
+may occur in connection with a decision or an expected benefit may
+not materialize.
+
+
+\properparagraph{What is the legal definition of Bankruptcy? Please name the main liability of the management, according to the Insolvency code.}
+Legal definition:\\
+A company is in a crisis, if it does not obtain loans at market prices
+anymore. It is then said to be ‘unworthy of credit’.
+
+Liability of the management:\\
+\begin{itemize}
+	\item Delayed filing for insolvency (Insolvenzverschleppung): 3 weeks
+	\item If the company you manage enters a crisis, you must act and inform the
+	authorities.
+\end{itemize}
+
+\properparagraph{What are the three reasons for insolvency (InsO §17-19)?}
+\\[-6ex]
+\begin{itemize}
+	\item Illiquidity (Zahlungsunfähigkeit)
+	\item Imminent insolvency (Drohende Zahlungsunfähigkeit)
+	\item Over-indebtedness (Überschuldung)
+\end{itemize}
+
+\properparagraph{The risk of the investors depends on the type of investment: Please categorize the different types of external financing (diagram 1). Name the two	definitions for each type.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Equity capital:}
+	\begin{itemize}
+		\item Highest liability risk
+		\item Lowest rank in case of insolvency or liquidation
+	\end{itemize}
+	\item \textbf{Mezzanine Capital:}
+	\begin{itemize}
+		\item Lower ranked than borrowed capital
+		\item Higher interest rate than loans
+	\end{itemize}
+	\item \textbf{Loans/borrowed capital:}
+	\begin{itemize}
+		\item Reduced risk
+		\item Highest rank in case of insolvency or liquidation
+	\end{itemize}
+\end{itemize}
+
+
+\properparagraph{Please fill out the Start-up Financing Cycle (diagram 2).}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{img/financingcycle}
+\caption{Financing Cycle}
+\label{fig:financingcycle}
+\end{figure}
+
+\properparagraph{Early-Stages: Why is it difficult for start-ups to uptain loans according to Hof (2017)? Name all the mentioned aspects.}
+\\[-6ex]
+\begin{itemize}
+	\item Lack of securities
+	\item No track record
+	\item Irreversibility of R\&D costs (sunk cost)
+	\item Risk of failure
+	\item High uncertainty about
+	\begin{itemize}
+		\item Market opportunities
+		\item development of the company
+	\end{itemize}
+	\item Asymmetric information
+	\begin{itemize}
+		\item skills of the founders?  
+		\item Difficulty to evaluate the quality of the product/technology
+	\end{itemize}
+\end{itemize}
+
+
+\properparagraph{What are the characteristics of the Idea phase according to the lecture?}
+\\[-6ex]
+\begin{itemize}
+	\item Idea generation, prototyping, feasibility studies, team	building etc.
+	\item No revenues, no profits/moderate losses
+	\item Financing from own cash-flows is not possible
+\end{itemize}
+
+
+\properparagraph{What are the characteristics of the start-up phase according to the lecture?}
+\\[-6ex]
+\begin{itemize}
+	\item Company foundation, product development reaches production stage, first marketing concepts, partnerships
+	\item First revenues, first small profits/high losses
+	\item Rising capital requirements
+\end{itemize}
+
+
+\properparagraph{What are the top five motivations of Business Angels for Investing according to Brandenburger et al. (2012)?}
+\\[-6ex]
+\begin{itemize}
+	\item Supporting young entrepreneurs
+	\item Contribute own professional experience
+	\item For fun
+	\item Potentially fruitful investment
+	\item To play a role in the entrepreneurial process	
+\end{itemize}
+
+\properparagraph{Name the five top factors in the category Entrepreneur and team according to Brandenburger et al. (2012).}
+\\[-6ex]
+\begin{itemize}
+	\item Trustworthiness
+	\item Enthusiasm
+	\item Achievement motivation
+	\item Ability to communicate the product
+	\item Frustration tolerance
+\end{itemize}
+
+\properparagraph{Name the six main phases of the funding process.}
+\\[-6ex]
+\begin{itemize}
+	\item Deal Origination
+	\item Screening
+	\item Evaluation
+	\item Deal Closing
+	\item Post-Investment Activities
+	\item Exit
+\end{itemize}
+
+
+\properparagraph{How do investors identify new companies according the lecture? Name three.}
+\\[-6ex]
+\begin{itemize}
+	\item Through direct contact from the entrepreneur (e.g., cold call, email, application platform).
+	\item Through an active search for deals.
+	\item Trough a referral process.
+\end{itemize}
+
+\properparagraph{Name and explain the several events an investor can make an exit through according to Cumming and MacIntosh (2003).}
+\\[-6ex]
+\begin{itemize}
+	\item Acquisition: the company as a whole is sold.
+	\item Initial public offering (IPO): the investor sells the
+	shares on the stock market.
+	\item Buy-back: the investor sells the shares to the
+	founders.
+	\item Secondary sale: the investor sells shares to
+	another investor.
+	\item Write off: the investor realizes a capital loss.
+\end{itemize}
+
+\properparagraph{How is a failure defined according to Gage (2012)?}
+If failure is defined as failing to see the projected return on investment - say, a specific revenue growth rate or date to break even on cash flow - then more than 95\% of start-ups fail.
+
+\properparagraph{Name the 5 top reasons why Startups fail.}
+\\[-6ex]
+\begin{itemize}
+	\item No Market Need
+	\item Run out of Cash
+	\item Not the Right Team
+	\item Got Outcompeted
+	\item Pricing/Cost Issues
+\end{itemize}
+
+
+
+
+
+
+
+\newpage
+\subsection{Session 7}
+\properparagraph{Explain the three mentioned reasons why it is necessary to have a business plan according to the lecture.}
+\\[-6ex]
+\begin{itemize}
+	\item Every major project needs a business plan. It is a roadmap and basis for
+	funding decisions.
+	\item Writing a business plan is an intensely focused activity. It requires honest
+	thinking about your business concept.
+	\item The more mature a business, the more you need a structured plan. Do not over-plan in the first phases.
+\end{itemize}
+
+
+\properparagraph{What are the four key objectives of EXIST according to the lecture?}
+\\[-6ex]
+\begin{itemize}
+	\item Establish a culture of entrepreneurship in
+	university teaching, research and
+	administration [...].
+	\item [...] translate the findings of academic
+	research into economic value [...].
+	\item Promote the huge potential for business
+	ideas and entrepreneurs at universities
+	and research institutions [...].
+	\item [...] increase the number of innovative
+	business start-ups and create [...] new
+	jobs [...]
+\end{itemize}
+
+\properparagraph{Please name a typical structure of a business plan.}
+\\[-6ex]
+\begin{itemize}
+	\item Cover page and table of content
+	\item Executive summary
+	\item Business description
+	\item Business environment analysis
+	\item Industry background
+	\item Competitive analysis
+	\item Market analysis
+	\item Marketing plan
+	\item Operations plan
+	\item Management team
+	\item Financial plan
+	\item Attachments and milestones
+\end{itemize}
+
+\properparagraph{What are the four sections of the EXIST business plan template? (Gründerstipendium)}
+\\[-6ex]
+\begin{enumerate}
+	\item Executive Summary
+	\item Business Idea
+	\item Market/Competition
+	\item Operational Planning
+\end{enumerate}
+
+
+\properparagraph{What are the three definitions mentioned in the lecture for pricing (Simon, 2004; Piercy et al., 2010; Ingenbleek et al, 2003)?}
+\\[-6ex]
+\begin{itemize}
+	\item The price is a key factor for profits.(Simon 2004)
+	\item It has high strategic impact. (Piercy et al. 2010)
+	\item It can be determined in three ways
+	(Ingenbleek et al. 2003, Monroe 1990, Hinterhuber 2008)
+	\begin{itemize}
+		\item Cost-based
+		\item Competition-based
+		\item Value-based
+	\end{itemize}
+\end{itemize}
+
+
+\properparagraph{Please explain GbR, GmbH and UG according to the slides in the lecture.}
+\\[-6ex]
+\begin{itemize}
+	\item Gesellschaft bürgerlichen Rechts (GbR)
+	\begin{itemize}
+		\item Unlimited personal liability, no capital required
+		\item Joint management (if not agreed differently)
+	\end{itemize}
+	\item Gesellschaft mit beschränkter Haftung	(GmbH)
+	\begin{itemize}
+		\item Limited personal liability, 25 k€ minimum capital
+		\item Notarial act for partners’ agreement (Gesellschaftervertrag)
+	\end{itemize}
+	\item Unternehmergesellschaft (UG)
+	\begin{itemize}
+		\item Start a  GmbH with 1 EUR.
+		\item 25 \% of the profits must go into a reserve until the	minimum initial capital of 25 k€ has been raised.
+	\end{itemize}
+\end{itemize}
+
+\properparagraph{What is the definition of Risk according to Vaughan (2008).}
+Risk is a condition in which there is a possibility of an adverse deviation from a desired outcome that is expected or hoped for.
+
+\properparagraph{Please name the five points of the Consequence Scale including the explanations.}
+\\[-6ex]
+\begin{enumerate}
+	\item  \textbf{Irrelevant:} the risk doesn’t impact changes in the company’s goals
+	and objectives
+	\item  \textbf{Minor:} the risk can be treated with existing resources
+	\item  \textbf{Moderate:} the impact of risk can be treated, but additional resources
+	are required
+	\item  \textbf{Major:} treatment of the risk will require significant additional
+	resources from other sectors or sources
+	\item  \textbf{Significant:} the risk might cause the company to fail achieving its
+	goals and in some cases can prove to be fatal to the company
+\end{enumerate}
+
+
+\properparagraph{Please name the five points of the Likelihood Scale including the explanations.}
+\\[-6ex]
+\begin{enumerate}
+	\item  \textbf{Rare:} the risk might occur only in extraordinary circumstances. Such a
+	risk has occurred somewhere else and might occur once in every 5+ years.
+	Probability of occurrence is lower than 5\%.
+	\item  \textbf{Unlikely:} the risk might occur at some point, for example, once in 5
+	years. Probability of occurrence is 5–30\%.
+	\item  \textbf{Possible:} the risk might occur at some point, for example, once in 3
+	years. Probability of occurrence is 30–70\%.
+	\item  \textbf{Likely:} the risk might occur, at least once during the year. Probability of
+	occurrence is 70–95\%.
+	\item  \textbf{Almost certain:} the risk is expected to occur in the majority of cases,	occurs often during the relevant year. Probability of occurrence is 95–100\%.
+\end{enumerate}
+
+
+\properparagraph{Please name the three options to treat risks including the explanation, mentioned in the lecture.}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Risk avoidance:} includes taking proactive measures, such as requiring
+	clients to cover purchased goods with credit through a collateral, or not
+	undertaking any activities at all, which is expected to be damaging.
+	\item \textbf{Risk reduction:} includes taking concrete measures to minimize the
+	consequences of a specific risk, such as installing alarms to secure
+	assets from eventual thefts, or installing fire alarms.
+	\item \textbf{Risk anticipation:}, in literature, also known as the self-insurance strategy, where entrepreneurs leave aside some amount of money in order to
+	cover damages if a risk occur.
+\end{itemize}
+
+\properparagraph{Please name the steps of the Linear causation approach.}
+analyze, plan, do, check, act
+
+\properparagraph{Please name the steps of the Linear causation approach in an entrepreneurial context.}
+market research, segmentation, positioning, business plan, financing and staff, "`go live"'
+
+\properparagraph{Please name and explain the five principle of effectuation according to Sarasvathy (2009)?}
+\\[-6ex]
+\begin{itemize}
+	\item \textbf{Bird-in-Hand Principle:} entrepreneurs take means driven action when building a new venture
+	\item \textbf{Affordable Loss Principle:} entrepreneurs limit risk by defining what they can afford to lose at each step
+	\item \textbf{Crazy Quilt Principle:} entrepreneurs	build partnerships with self-
+	selecting stakeholders.	
+	\item \textbf{Lemonade Principle:} entrepreneurs invite the surprise factor
+	\item \textbf{Pilot-in-the-Plane Principle:} entrepreneurs know their actions will result in the desired outcomes. Focus on activities within their control.	
+\end{itemize}
+
 \end{document}
 
